@@ -1,0 +1,16 @@
+This repository contains MATLAB code that was used in the following paper:
+
+  "Zero-forcing methods for downlink spatial multiplexing in multiuser MIMO
+  channels", Quentin H. Spencer, A. Lee Swindlehurst and Martin Haardt, IEEE
+  Transactions on Signal Processing, Feb. 2004, pp. 461-471.
+
+  (http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1261332)
+
+I get periodic requests for the code used to generate the results in the
+article, so I am putting this here. Note that the code was mostly written
+in 2002 or earlier. Some of the code depends functions I had written at the
+time that did not exist in MATLAB at the time (i.e. cdf, ccdf, random). I
+have attempted to include my versions of these functions so that all of the
+code runs correctly, because the functions now present in MATLAB may not
+do exactly the same thing or have the same interface.
+
