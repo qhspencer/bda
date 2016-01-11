@@ -14,3 +14,17 @@ have attempted to include my versions of these functions so that all of the
 code runs correctly, because the functions now present in MATLAB may not
 do exactly the same thing or have the same interface.
 
+The main function for computing capacity of Gaussian multi-user MIMO
+channels using the BD algorithm is bd_capacity.m. I have also included the
+function bd_plots.m, which was used to produce many of the plots in the
+paper. The plots were generated using GNU Octave rather than MATLAB, and
+they contained a number of Octave-specific function calls that are no
+longer supported in modern Octave or in MATLAB, so I have attempted to
+remove all of those, which means some plot labels and annotations will
+look different. All of the plots can be successfully produced in Octave
+but have not been tested in MATLAB.
+
+Several papers subsequent to my 2004 paper have found more efficient
+ways of computing the same solutions.  If anyone is interested in implementing
+faster solutions or updating the code in other ways to take advantage of
+more modern MATLAB or Octave versions, I welcome any contributions.
