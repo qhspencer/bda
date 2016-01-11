@@ -1,9 +1,6 @@
-function [result] = bd_plot(N,figpath,color);
-%bd_plots(N,figpath,color);
-
-if(nargin<3)	color	= 1;			end
-if(nargin<2)	figpath = 'block_diag/';	end
-if(strcmp(figpath,'test')) test	= 1;	else	test	= 0;	end
+function [result] = bd_plot(N);
+% bd_plots(N);
+%  Generate plot number N, where 1 <= N <= 8
 
 % channel strings
 str1	= 'Inversion';		str2	= 'Block-Diag.';
